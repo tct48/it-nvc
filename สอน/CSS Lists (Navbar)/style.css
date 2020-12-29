@@ -1,0 +1,88 @@
+body{
+    font-family: 'Prompt', sans-serif;
+    margin:0px;
+}
+
+h1,p{
+    margin:0px;
+    padding:0px;
+}
+
+ul{
+    list-style-type: none;
+    margin:0px;
+    padding:0px;
+    overflow: hidden;
+    background-color:black;
+}
+
+li{
+    float:left;
+}
+
+li a{
+    text-decoration: none;
+    color:white;
+}
+
+li a, li{
+    padding:14px 16px;
+}
+
+/* a:hover{} */
+
+li a:hover{
+    background:tomato;
+}
+
+.active{
+    background:tomato;
+}
+
+.right{
+    float:right;
+}
+
+.container{
+    width:1200px;
+    margin:0px auto;
+    /* background-color: yellowgreen; */
+}
+
+.shadow{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.banner{
+    background-color: dimgray;
+    /* background-image: url("landscpae.jpg"); */
+    /* Sketch image CSS*/
+    text-align: center;
+    color:white;
+    padding:80px 0px;
+}
+
+.p{
+    padding:14px 16px;
+}
+
+table{
+    width:800px;
+    border-collapse: collapse;
+    border:1px solid black;
+    margin:15px auto 8px;
+}
+
+tr{
+    text-align: center;
+}
+
+tr:hover{
+    background-color: gainsboro;
+    cursor:pointer;
+}
+
+th{
+    background-color:teal;
+    color:white;
+}

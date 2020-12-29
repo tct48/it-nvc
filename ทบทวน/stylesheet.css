@@ -1,0 +1,25 @@
+h1{
+    color:white;
+    padding:3px 10px 3px 10px;
+    margin:0px;
+}
+
+.first{
+    background-color: coral;
+}
+
+.seccond{
+    background-color: cornflowerblue;
+}
+
+.third{
+    background-color: darkcyan;
+}
+
+.center{
+    text-align: center;
+}
+
+.right{
+    text-align: right;
+}

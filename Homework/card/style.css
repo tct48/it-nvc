@@ -1,0 +1,38 @@
+body{
+    margin:0px;
+    padding:0px;
+    background:gainsboro;
+    font-family: 'Mitr', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+    margin:0px;
+    padding:0px;
+}
+
+.container{
+    width:800px;
+    margin:0px auto;
+}
+
+.card{
+    width:150px;
+    border:1px solid black;
+    background:white;
+    margin:0px 10px 10px 0px;;
+    float:left;
+}
+
+.card:hover{
+    cursor:pointer;
+    box-shadow: 0px 10px 5px 0px rgba(92,92,92,1);
+}
+
+.card-body{
+    margin:0px;
+    padding:0px 10px;
+}
+
+img{
+    max-width: 100%;
+}

@@ -1,0 +1,36 @@
+body{
+    margin:0px;
+    padding:0px;
+}
+
+ul{
+    margin:0px;
+    padding:0px;
+    list-style: none;
+}
+
+ul li{
+    width:fit-content;
+    float:left;
+}
+
+ul li a{
+    padding: 5px 18px;
+    margin:0px;
+    text-decoration: none;
+    color:black;
+    border:5px solid white;
+    border-style: none none none solid;
+}
+
+ul li a:hover{
+    border:5px solid darkslategrey;
+    border-style: none none none solid;
+}
+
+/* 4. เมื่อกดคลิก */
+ul li a:active{
+    border:1px solid firebrick;
+    background:firebrick;
+    color:white;
+}

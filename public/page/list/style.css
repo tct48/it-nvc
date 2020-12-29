@@ -1,0 +1,54 @@
+body{
+    font-family: 'Prompt', sans-serif;
+}
+
+h4,h5,p, ul, li{
+    margin:0px;
+    padding:0px;
+}
+
+body{
+    margin:0px;
+    padding:0px;
+}
+
+h4{
+    color:deeppink;
+    margin: 5px 0px;
+}
+
+.blue{
+    color:deepskyblue;
+}
+
+p{
+    color:white;
+    font-size: 14px;
+}
+
+.text P{
+    color:black;
+}
+
+.container{
+    width:350px;
+    margin:8px 0px 0px;
+}
+
+ul{
+    list-style-type: none;
+    padding:0px;
+}
+
+li{
+    border:1px solid rgba(0, 0, 0, 0.904);
+    border-radius:0px 6px 6px 0px;
+    background:rgba(0, 0, 0, 0.904);
+    padding:15px 10px;
+    margin:0px 0px 5px 0px;
+}
+
+li:hover{
+    background:rgba(0, 0, 0, 0.853);
+    cursor:pointer;
+}

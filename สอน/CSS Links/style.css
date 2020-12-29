@@ -1,0 +1,37 @@
+a{
+    background: skyblue;
+    border:1px solid skyblue;
+    padding: 5px 10px;
+    margin:0px;
+    border-radius: 8px;
+    text-decoration: none;
+    color:darkslategrey;
+}
+
+/* สามารถกำหนดได้ หลาย State (สถานะ)  
+1. ลิงก์แบบปกติ normal
+2. ลิงก์ที่เคยเยี่ยมชมแล้ว visited
+3. เมื่อเอาเมาส์ไปวางทับ hover
+4. เมื่อกดคลิก */
+
+/* 1. แบบปกติ (ยังไม่เคยเข้า) */
+a:link{
+}
+
+/* 2. แบบเคยเข้าแล้ว */
+a:visited{
+}
+
+/* 3. แบบเมาส์ไปวางทับ */
+a:hover{
+    border:1px solid darkslategrey;
+    background:darkslategrey;
+    color:darkturquoise;
+}
+
+/* 4. เมื่อกดคลิก */
+a:active{
+    border:1px solid firebrick;
+    background:firebrick;
+    color:white;
+}
